@@ -385,7 +385,6 @@ class EditorConfig {
     this.editActionDetailsIsChanged,
     this.reverseMousePointerScrollDirection = false,
   })  : assert(lineHeight > 0.0),
-        assert(hitTestSize > 0.0),
         assert(maxScale > 0.0),
         assert(speed > 0.0);
 
